@@ -10,7 +10,7 @@ body {
 /* Navigation */
 header {
   background: #8b0000; /* Dark red for gift theme */
-  color: black;
+  color: white;
   padding: 15px 20px;
   text-align: center;
 }
@@ -78,3 +78,4 @@ footer {
   margin-top: 30px;
 
 }
+

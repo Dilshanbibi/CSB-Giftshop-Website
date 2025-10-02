@@ -1,5 +1,5 @@
 # CSB-Giftshop-Website
-My first website, fall 2025
+# My first website, fall 2025
 Problem/need definition
 Ecommerce solution for global customers wanting to buy Malaysian goods that would otherwise be unaccessible in the American market. 
 Scope & goals

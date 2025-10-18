@@ -4,23 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSB - Cahaya Surya Bakti</title>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P4MK8TXG7R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P4MK8TXG7R');
-</script>
-  <meta name="description" content="CSB (Cahaya Surya Bakti) – Gift and Ornament Store. Brighten your moments with bouquets, tote bags, cookies, and handcrafted gifts.">
-  <meta name="keywords" content="CSB, gifts, ornaments, bouquets, tote bags, cookies, birthday gifts, anniversary gifts">
+  <meta name="description" content="CSB (Cahaya Surya Bakti) – Gift and Ornament Store. Bouquets, tote bags, earrings, cards, and cookies crafted with love.">
+  <meta name="keywords" content="CSB, gifts, ornaments, bouquets, tote bags, earrings, cookies, birthday gifts, anniversary gifts">
   <meta name="author" content="CSB - Cahaya Surya Bakti">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>CSB - Cahaya Surya Bakti</h1>
+    <h1>CSB — Cahaya Surya Bakti</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
@@ -29,36 +21,81 @@
     </nav>
   </header>
 
+  <!-- Banner -->
   <section class="banner">
-    <h2>Brightening Your Moments with Gifts & Ornaments</h2>
-    <p>Beautiful Bouquets, Handcrafted Gifts & Delicious Cookies</p>
-    <img src="images/banner.jpg" alt="Decorative gift and ornament banner">
+    <h2>Brightening Your Moments with Love & Gifts</h2>
+    <p>Handpicked gifts and ornaments to make her smile</p>
   </section>
 
+  <!-- Featured Collection -->
   <section class="container">
-    <h2>Featured Products</h2>
+    <h2>Featured Collection</h2>
     <div class="grid">
-      <div class="card">
-        <img src="images/bouquet.jpg" alt="Fresh flower bouquet gift">
-        <h3>Bouquet</h3>
-        <p>$35</p>
-      </div>
-      <div class="card">
-        <img src="images/totebag.jpg" alt="Eco-friendly tote bag">
-        <h3>Tote Bag</h3>
-        <p>$20</p>
-      </div>
-      <div class="card">
-        <img src="images/cookies.jpg" alt="Assorted gift cookies">
-        <h3>Assorted Cookies</h3>
-        <p>$25</p>
-      </div>
+      <a href="products.html" class="card-link">
+        <div class="card">
+          <img src="images/bouquet.jpg" alt="Fresh flower bouquet gift">
+          <h3>Bouquets</h3>
+          <p class="price">$35</p>
+        </div>
+      </a>
+
+      <a href="products.html" class="card-link">
+        <div class="card">
+          <img src="images/earrings.jpeg" alt="Handmade quilled earrings">
+          <h3>Quilled Earrings</h3>
+          <p class="price">$15</p>
+        </div>
+      </a>
+
+      <a href="products.html" class="card-link">
+        <div class="card">
+          <img src="images/totebag.jpg" alt="Eco-friendly tote bag">
+          <h3>Tote Bags</h3>
+          <p class="price">$20</p>
+        </div>
+      </a>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 CSB - Cahaya Surya Bakti</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <h4>CSB — Cahaya Surya Bakti</h4>
+        <p>Beautiful gifts, ornaments, and treats made with love and care. Perfect for every special moment.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html">Bouquets</a></li>
+          <li><a href="products.html">Earrings</a></li>
+          <li><a href="products.html">Tote Bags</a></li>
+          <li><a href="products.html">Cookies</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About CSB</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <p>Get sweet updates on new gifts &amp; seasonal treats.</p>
+        <form class="news-form" onsubmit="return false;">
+          <input type="email" placeholder="Your email" required>
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 CSB — Cahaya Surya Bakti. All rights reserved.
+    </div>
   </footer>
-</body>
 
+  <script src="script.js"></script>
+</body>
 </html>

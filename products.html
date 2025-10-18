@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products - CSB</title>
   <meta name="description" content="Explore CSB products: bouquets, coasters, tote bags, quilled earrings, greeting cards, birthday gifts, anniversary gifts, and cookies.">
-  <meta name="keywords" content="CSB, products, gifts, ornaments, bouquets, cookies, tote bags, earrings, cards">
+  <meta name="keywords" content="CSB, gifts, ornaments, bouquets, cookies, tote bags, earrings, cards">
   <meta name="author" content="CSB - Cahaya Surya Bakti">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -20,69 +20,111 @@
     </nav>
   </header>
 
+  <section class="banner">
+    <h2>Explore Our Collection</h2>
+    <p>Thoughtful gifts and handcrafted pieces made with love.</p>
+  </section>
+
   <section class="container">
-    <h2>Gift & Ornament Collection</h2>
+    <h2>Gift &amp; Ornament Collection</h2>
     <div class="grid">
       <div class="card">
         <img src="images/bouquet.jpg" alt="Fresh flower bouquet gift">
         <h3>Bouquets</h3>
-        <p>$35</p>
+        <p class="price">$35</p>
       </div>
       <div class="card">
         <img src="images/coaster.jpg" alt="Handmade wooden coaster set">
         <h3>Coasters</h3>
-        <p>$10</p>
+        <p class="price">$10</p>
       </div>
       <div class="card">
         <img src="images/totebag.jpg" alt="Eco-friendly tote bag">
         <h3>Tote Bags</h3>
-        <p>$20</p>
+        <p class="price">$20</p>
       </div>
       <div class="card">
-        <img src="images/earrings.jpg" alt="Quilled paper earrings">
+        <img src="images/earrings.jpeg" alt="Quilled paper earrings">
         <h3>Quilled Earrings</h3>
-        <p>$15</p>
+        <p class="price">$15</p>
       </div>
       <div class="card">
-        <img src="images/cards.jpg" alt="Colorful greeting cards">
-        <h3>Cards</h3>
-        <p>$5</p>
+        <img src="images/cards.jpeg" alt="Colorful greeting cards">
+        <h3>Greeting Cards</h3>
+        <p class="price">$5</p>
       </div>
       <div class="card">
-        <img src="images/birthday.jpg" alt="Wrapped birthday gift with balloons">
+        <img src="images/birthday.jpg" alt="Wrapped birthday gift with ribbons">
         <h3>Birthday Gifts</h3>
-        <p>$30</p>
+        <p class="price">$30</p>
       </div>
       <div class="card">
-        <img src="images/anniversary.jpg" alt="Romantic anniversary gift set">
+        <img src="images/anniversary.jpeg" alt="Romantic anniversary gift set with flowers">
         <h3>Anniversary Gifts</h3>
-        <p>$40</p>
+        <p class="price">$40</p>
       </div>
       <div class="card">
-        <img src="images/pineapple.jpg" alt="Homemade pineapple tarts cookies">
+        <img src="images/pineapple.jpg" alt="Homemade pineapple tarts">
         <h3>Pineapple Tarts</h3>
-        <p>$12</p>
+        <p class="price">$12</p>
       </div>
       <div class="card">
-        <img src="images/cashew.jpg" alt="Cashew nut cookies in a box">
+        <img src="images/cashew.jpeg" alt="Cashew nut cookies in a gift box">
         <h3>Cashew Nut Cookies</h3>
-        <p>$15</p>
+        <p class="price">$15</p>
       </div>
       <div class="card">
-        <img src="images/butter.jpg" alt="Golden butter cookies">
+        <img src="images/butter.jpeg" alt="Golden butter cookies">
         <h3>Butter Cookies</h3>
-        <p>$18</p>
+        <p class="price">$18</p>
       </div>
       <div class="card">
-        <img src="images/german.jpg" alt="German potato cookies">
+        <img src="images/german.jpeg" alt="German potato cookies">
         <h3>German Potato Cookies</h3>
-        <p>$20</p>
+        <p class="price">$20</p>
       </div>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 CSB - Cahaya Surya Bakti</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <h4>CSB — Cahaya Surya Bakti</h4>
+        <p>Beautiful gifts, ornaments, and treats made with love and care. Perfect for every special moment.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html">Bouquets</a></li>
+          <li><a href="products.html">Coasters</a></li>
+          <li><a href="products.html">Tote Bags</a></li>
+          <li><a href="products.html">Earrings</a></li>
+          <li><a href="products.html">Cookies</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About CSB</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <p>Get sweet updates on new gifts &amp; seasonal treats.</p>
+        <form class="news-form" onsubmit="return false;">
+          <input type="email" placeholder="Your email" required>
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 CSB — Cahaya Surya Bakti. All rights reserved.
+    </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
